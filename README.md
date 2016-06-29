@@ -114,8 +114,7 @@ To remove an element in JavaScript, you can call on the `splice()` function. Thi
 1. index to start at (required)
 2. number of elements to remove (required)
 3. an element to add to the array (optional)
-4. an element to add to the array (optional)
-5. etc.
+4. etc.
 
 ```javascript
 var myFish = ['angel', 'clown', 'drum', 'mandarin', 'surgeon'];
@@ -220,3 +219,5 @@ if/when strange bugs start to appear.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-to-arrays.js' title='JavaScript Arrays'>JavaScript Arrays</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-to-arrays.js'>Intro To Arrays in JS</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-intro-to-arrays'>Intro To Arrays in JS</a> on Learn.co and start learning to code for free.</p>
