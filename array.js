@@ -25,3 +25,11 @@ function removeElementFromArray(array) {
   var newer = new.push("Roast Chicken");
   return newer;
 };
+
+function iterateArray(array) {
+  var newNums = [];
+  array.forEach(function(number) {
+    newNums.push(number + 5);
+  })
+  return newNums;
+};
