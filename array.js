@@ -12,26 +12,29 @@ function addElementToArray(array) {
 
 }
 
-function accessElementFromArray(array) {
-  return array[2];
-
+function  accessElementFromArray(states){
+  return states[2];
 }
 
-function replaceElementInArray(array) {
-  return array[2] = "Carter";
-  // return array;
+function replaceElementInArray(name) {
+  name = "Carter";
+  return name;
 }
 
-function removeElementFromArray(array) {
-  array.splice(2, 2, "Roast Chicken");
-  return array;
+function removeElementFromArray(dish){
+  dish.splice(2, 3, "Roast Chicken");
+  return dish;
 }
 
-function iterateArray(array) {
+function iterateArray(numArr){
   var newNums = [];
-
-  array.forEach(function(oldnumber) {
-    newNums.push(oldnumber + 5)
+  numArr.forEach(function(num) {
+    newNums.push(num + 5);
   });
   return newNums;
 }
+
+
+
+
+
