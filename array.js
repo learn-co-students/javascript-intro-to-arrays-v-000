@@ -16,15 +16,14 @@ return states[2];
 
 function replaceElementInArray(names)
 {
-n=name[1];
-name[1]= "Carter";
-return name[1];
+var n=names[1];
+names[1]= "Carter";
+return names[1];
 }
 
 function removeElementFromArray(dishes)
 {
-dishes.splice(2,2);
-dishes.splice(0,0,"Roast Chicken")
+dishes.splice(2,2,"Roast Chicken");
 return dishes;
 }
 
