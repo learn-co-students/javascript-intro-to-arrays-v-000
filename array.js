@@ -15,3 +15,9 @@ function accessElementFromArray(states) {
   var states = ["New York", "California", "Virginia", "Louisiana", "Nevada"];
   return states[2];
   }
+
+function replaceElementInArray(names) {
+  var names = ["Joe", "Tim", "Stephen", "Sarah", "Stephanie"]
+  names[1] = "Carter";
+  return "Carter";
+  }
