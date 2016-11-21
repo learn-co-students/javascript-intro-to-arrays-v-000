@@ -21,3 +21,9 @@ function replaceElementInArray(names) {
   names[1] = "Carter";
   return "Carter";
   }
+
+function removeElementFromArray(dishes) {
+  var dishes = ["Pasta Alfredo", "Grilled Salmon", "Hamburgers", "Black Bean Soup"]
+  dishes.splice(2,2,"Roast Chicken")
+  return dishes
+  }
