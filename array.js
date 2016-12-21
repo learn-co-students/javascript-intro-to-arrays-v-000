@@ -4,9 +4,9 @@ function createArray(){
   return ["snickers", "hundred grand", "kitkat", "skittles"];
 }
 
-function addElementToArray(movies){
-  movies.push("A Christmas Story");
-  return movies;
+function addElementToArray(arr){
+  arr.push("A Christmas Story");
+  return arr;
 }
 
 function accessElementFromArray(array){
@@ -14,19 +14,17 @@ function accessElementFromArray(array){
 }
 
 function replaceElementInArray(names){
-  names[1] = "Carter";
-  return names[1];
+  return names[1] = "Carter";
 }
 
 function removeElementFromArray(dishes){
-  dishes.splice(2, 2);
-  dishes.push("Roast Chicken");
+  dishes.splice(2, 2, "Roast Chicken");
   return dishes;
 }
 
-function iterateArray(numArr){
+function iterateArray(numbers){
   var newNums = [];
-  numArr.forEach(function(num){
+  numbers.forEach(function(num){
     newNums.push(num + 5);
   });
   return newNums;
