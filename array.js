@@ -27,6 +27,13 @@ function removeElementFromArray(array){
  return array
 }
 
+// lab solution was a little different
+// function removeElementFromArray(dishesArr){
+//   dishesArr.splice(2, 2, "Roast Chicken");
+//   return dishesArr;
+// }
+
+
 
 function iterateArray(array){
   var newNums = [];
