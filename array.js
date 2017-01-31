@@ -1,8 +1,7 @@
 'use strict';
 
 function createArray() {
-  var bars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  return bars;
+  return ["snickers", "hundred grand", "kitkat", "skittles"];
 }
 
 function addElementToArray(array) {
@@ -27,8 +26,7 @@ function removeElementFromArray(array) {
 function iterateArray(array) {
   var newNums = []
     array.forEach(function(number) {
-    var number = number + 5;
-    newNums.push(number);
+    newNums.push(number + 5);
     });
   return newNums
 }
