@@ -1,38 +1,46 @@
 'use strict';
 
 function createArray() {
-  var candybars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  return candybars;
-  }
+  var candy =  ["snickers", "hundred grand", "kitkat", "skittles"]
+  return candy
+}
 
-function addElementToArray(christmasMovies) {
-  var movies = ["Home Alone", "Love Actually", "Elf"];
-  movies.push("A Christmas Story");
-  return movies
-  }
+function addElementToArray(Array) {
+  Array.push("A Christmas Story");
+  return Array
+}
 
 function accessElementFromArray(states) {
-  var states = ["New York", "California", "Virginia", "Louisiana", "Nevada"];
   return states[2];
-  }
-
+}
 
 function replaceElementInArray(names) {
-  var names = ["Joe", "Tim", "Stephen", "Sarah", "Stephanie"]
   names[1] = "Carter";
-  return "Carter";
-  }
+  return names[1]
+}
 
 function removeElementFromArray(dishes) {
-  var dishes = ["Pasta Alfredo", "Grilled Salmon", "Hamburgers", "Black Bean Soup"]
-  dishes.splice(2,2,"Roast Chicken")
+  dishes.splice(2,2, "Roast Chicken");
   return dishes
-  }
+}
 
-  function iterateArray(numArray) {
-    var newNum = []
-    numArray.forEach(function(number) {
-    newNum.push(number+5)
+//Write a function iterateArray that accepts an array of numbers as a parameter.
+//The body should also contain an empty array, stored in the variable newNums.
+//You should iterate over the array of numbers, add 5 to each number, and store the larger number in the array newNums.
+//The function should return the newNums array.
+
+function iterateArray(numbers) {
+    var newNums = [];
+    numbers.forEach(function(number){
+    newNums.push(number+5);
   })
-    return newNum;
-  }
+    return newNums;
+}
+
+//function iterateArray(numArray) {
+//    var newNum = []
+//    numArray.forEach(function(number) {
+//    newNum.push(number+5)
+//  })
+//    return newNum;
+//  }
